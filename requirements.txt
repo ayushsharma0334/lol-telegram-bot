@@ -4,6 +4,7 @@ async_generator
 bs4
 cowpy
 cryptg
+dnspython
 emoji
 gitpython
 google-api-python-client
