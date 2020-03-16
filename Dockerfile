@@ -57,13 +57,13 @@ RUN apk add --no-cache --update \
 RUN pip install --upgrade pip setuptools \
     && rm -r /usr/lib/python*/ensurepip && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip /usr/bin/pip ; fi && \
-    if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi && \
+    if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python /usr/bin/python; fi && \
     rm -r /root/.cache
 
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b sql-dirty https://github.com/AvinashReddy3108/PaperplaneExtended /root/userbot
+RUN git clone -b sql-dirty https://github.com/ayushsharma0334/lol-telegram-bot /root/userbot
 RUN mkdir /root/userbot/bin/
 WORKDIR /root/userbot/
 
