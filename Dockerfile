@@ -55,8 +55,7 @@ RUN apk add --no-cache --update \
     py-pip
 
 
-RUN pip install --upgrade pip setuptools \
-        rm -r /root/.cache
+#RUN pip install --upgrade pip setuptools 
 
 #
 # Clone repo and prepare working directory
