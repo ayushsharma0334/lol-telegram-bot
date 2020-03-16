@@ -54,10 +54,10 @@ RUN apk add --no-cache --update \
     python-dev
 
 
-RUN pip3 install --upgrade pip setuptools \
+RUN pip install --upgrade pip setuptools \
     && rm -r /usr/lib/python*/ensurepip && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi && \
-    if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi && \
+    if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python /usr/bin/python; fi && \
     rm -r /root/.cache
 
 #
@@ -75,6 +75,6 @@ COPY ./sample_config.env ./userbot.session* ./config.env* /root/userbot/
 #
 # Install requirements
 #
-RUN pip3 install cffi
-RUN pip3 install -r requirements.txt
+RUN pip install cffi
+RUN pip install -r requirements.txt
 CMD ["python3","-m","userbot"]
