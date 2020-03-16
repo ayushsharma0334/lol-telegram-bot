@@ -42,8 +42,6 @@ RUN apk add --no-cache --update \
     jq \
     wget \
     python \
-    python3 \
-    python3-dev \
     readline-dev \
     sqlite \
     ffmpeg \
