@@ -51,7 +51,8 @@ RUN apk add --no-cache --update \
     sudo \
     zlib-dev \
     jpeg-dev \
-    python-dev
+    python-dev \
+    pip
 
 
 RUN pip install --upgrade pip setuptools \
