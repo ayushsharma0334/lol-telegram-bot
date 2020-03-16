@@ -52,7 +52,7 @@ RUN apk add --no-cache --update \
     zlib-dev \
     jpeg-dev \
     python-dev \
-    pip
+    py-pip
 
 
 RUN pip install --upgrade pip setuptools \
