@@ -30,6 +30,13 @@ METOOSTR = [
     "Haha yes",
     "Me rn",
 ]
+GEETA = [
+    "Yo Beb!!",
+    "Hii, lub🥰",
+    "🥰aaaye haaaye",
+    "My Beb Iz proo",
+    "U lob🥰",
+]
 
 ZALG_LIST = [[
     "̖",
