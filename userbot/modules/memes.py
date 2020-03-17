@@ -30,7 +30,7 @@ METOOSTR = [
     "Haha yes",
     "Me rn",
 ]
-GEETA = [
+GEETASTR = [
     "Yo Beb!!",
     "Hii, lub🥰",
     "🥰aaaye haaaye",
@@ -940,8 +940,8 @@ async def metoo(hahayes):
 
 @register(outgoing=True, pattern="^.geeta$")
 async def geeta(lub):
-    """ lub """
-    await lub.edit(choice(GEETA))
+    """ You lub """
+    await youlub.edit(choice(GEETASTR))
 
 @register(outgoing=True, pattern="^Oof$")
 async def Oof(e):
@@ -1166,6 +1166,8 @@ CMD_HELP.update({
 \nUsage: You better start running\
 \n\n.metoo\
 \nUsage: Haha yes\
+\n\n.geeta\
+\nUsage: You lub\
 \n\n.mock\
 \nUsage: Do it and find the real fun.\
 \n\n.clap\
