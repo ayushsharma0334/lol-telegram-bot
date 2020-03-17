@@ -26,6 +26,7 @@ METOOSTR = [
     "Same lol",
     "Me irl",
     "Same here",
+    "Me bhi lwde, bilkul same",
     "Haha yes",
     "Me rn",
 ]
@@ -176,6 +177,7 @@ EMOJIS = [
 ]
 
 INSULT_STRINGS = [
+    "Chup lwde, bilkul chup.",
     "Owww ... Such a stupid idiot.",
     "Don't drink and type.",
     "I think you should go home or better a mental asylum.",
@@ -492,7 +494,7 @@ CRI = [
     "(ಥ﹏ಥ)",
     "（；へ：）",
     "(T＿T)",
-    "（πーπ）",
+    "（πーπ）", 
     "(Ｔ▽Ｔ)",
     "(⋟﹏⋞)",
     "（ｉДｉ）",
