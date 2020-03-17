@@ -939,9 +939,9 @@ async def metoo(hahayes):
     await hahayes.edit(choice(METOOSTR))
 
 @register(outgoing=True, pattern="^.geeta$")
-async def metoo(hahayes):
-    """ Haha yes """
-    await hahayes.edit(choice(GEETA))
+async def geeta(lub):
+    """ lub """
+    await lub.edit(choice(GEETA))
 
 @register(outgoing=True, pattern="^Oof$")
 async def Oof(e):
